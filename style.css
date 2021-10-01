@@ -1,3 +1,64 @@
-h1 {
-    background-color: blue;
+body, html{
+    height: 100%;
+}
+
+.fullScreen {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 15%;
+    background-color: royalblue;
+}
+
+.circulos {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0px 0px 3% 2%;
+}
+
+.areaCentral {
+    width: 100%;
+    height: 55%;
+    background-color: salmon;
+    display: flex;
+}
+
+.conteudo {
+    width: 60%;
+    height: 100%;
+    background-color: purple;
+}
+
+.barraLateral {
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.navegacao {
+    width: 20%;
+    height: 100%;
+    background-color: orange;
+}
+
+.rodape {
+    width: 100%;
+    height: 10%;
+    background-color: turquoise;
 }
